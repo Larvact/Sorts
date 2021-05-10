@@ -7,7 +7,7 @@ public abstract class Sort<T extends Double> {
     protected List<T> unSortedList;
     protected List<T> sortedList;
 
-    public Sort(List<T> unSortedList) {
+    protected Sort(List<T> unSortedList) {
         this.unSortedList = unSortedList;
     }
 
